@@ -1,0 +1,15 @@
+@import "./index.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+:root {
+    @apply text-clrWhite bg-clrDark;
+}
+body {
+    @apply font-roboto;
+}
+p {
+    @apply max-w-[600px];
+}
+.border-roundedTop32 {
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
